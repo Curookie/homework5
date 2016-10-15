@@ -23,7 +23,6 @@ public class ExamForWhile {
 			System.out.println("6. 종료하기");
 			System.out.print("원하는 메뉴는 >> ");
 			String input = s.nextLine();
-			if(input.equalsIgnoreCase("q")) break;
 			if(!input.matches("^[1-6]{1}$")||input.equals("")) { System.out.println("제대로 입력하세요!"); continue; }
 			menu= Integer.parseInt(input);
 			
