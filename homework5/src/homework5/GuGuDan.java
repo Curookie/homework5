@@ -18,7 +18,7 @@ public class GuGuDan {
 			if(input.equalsIgnoreCase("q")) break;
 			if(!input.matches("^[0-9]*$")||input.equals("")) { System.out.println("제대로 입력해주세요."); continue; }
 			int num = Integer.parseInt(input);
-			if(num>0&&num<10) {
+			if(num>1&&num<10) {
 				for(int i=1;i<10;i++) {
 					if(i%2==0) System.out.println(num+" * "+i+" = "+num*i);
 					else System.out.print(num+" * "+i+" = "+num*i+"\t");

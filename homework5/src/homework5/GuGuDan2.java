@@ -19,7 +19,7 @@ public class GuGuDan2 {
 			if(!(input.equalsIgnoreCase("e")||input.equalsIgnoreCase("o"))) { System.out.println("제대로 입력해주세요."); continue; }
 			
 			int b=2;
-			if(input.equalsIgnoreCase("o")) b=1;
+			if(input.equalsIgnoreCase("o")) b=3;
 				for(int i=1;i<10;i++) {
 					for(int j=b;j<10;j+=2) {
 						System.out.print(j+" * "+i+" = "+j*i+"\t");
