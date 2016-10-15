@@ -1,9 +1,6 @@
 package homework5;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-
-import sun.print.resources.serviceui;
 
 public class ExamForWhile {
 	
